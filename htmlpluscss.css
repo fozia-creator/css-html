@@ -2,32 +2,40 @@
 	margin: 0;
 	padding: 0;
 }
-h2{
+p{
+	color:red;
+	font-family: serif;
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: lighter;
+}
+#textcss{
+	color:purple;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	direction: rtl;
+	/*direction: ltr;*/
+	text-indent: 50px;
+	text-align: right;
+	text-transform:uppercase;
+
+}
+a:link{
 	color:red;
 }
-#headingid{
-	color:blue;}
-
-.headingclass{
+a:hover{
 	color:pink;
 }
-
-.backImg{
-	width:100%;
-	height: 100vh;
-	/*background-color:green;*/
-	background-image:  url('photo.jpeg');
-	background-repeat: repeat-x;
-	background-size: 100% 100%;
-	background-attachment: fixed;
+a:active{
+	color:yellow;
 }
-
-.backImg1{
-	width:100%;
-	height: 100vh;
-	/*background-color:green;*/
-	background-image:  url('photo1.jpeg');
-	background-repeat: repeat-x;
-	background-size: 100% 100%;
-	background-attachment: fixed;
+a:visited{
+	color:blue;
 }
+a:active{
+	color:green;
+}
+/**#textcss{
+	font-family: 'amily=Tangerine',sans-serif;
+	color:red;
+}**/
